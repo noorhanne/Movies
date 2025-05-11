@@ -1,0 +1,11 @@
+{
+  "name": "task-three",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.5",
+    "@tailwindcss/vite": "^0.1.1"
+  }
+}

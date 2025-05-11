@@ -1,0 +1,23 @@
+/* custom scroll bar */
+html::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: white;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 5rem;
+}
+.home {
+  background-image: url(../img/home3.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+/* Responsive */
+@media (max-width:774px) {
+  .navbar.active {
+    top: 100%;
+  }
+}
+/* Responsive */
